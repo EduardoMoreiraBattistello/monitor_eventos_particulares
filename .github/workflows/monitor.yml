@@ -46,7 +46,7 @@ jobs:
       - name: Enviar copia atrasada
         if: ${{ hashFiles('alerta_atrasado.json') != '' }}
         env:
-          ATRASO_SEGUNDOS: "300"
+          ATRASO_SEGUNDOS: "180"
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           SMTP_TO_ATRASADO: ${{ secrets.SMTP_TO_ATRASADO }}
