@@ -30,6 +30,7 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           SMTP_TO: ${{ secrets.SMTP_TO }}
+          SMTP_TO_ATRASADO: ${{ secrets.SMTP_TO_ATRASADO }}
         run: python monitor.py
 
       - name: Salvar estado atualizado
@@ -39,3 +40,16 @@ jobs:
           git add events.json
           git diff --cached --quiet || git commit -m "Atualiza estado dos eventos [skip ci]"
           git push
+
+      # So roda quando houve alerta e o secret SMTP_TO_ATRASADO existe.
+      # Espera ATRASO_SEGUNDOS e manda a mesma mensagem pros outros enderecos.
+      - name: Enviar copia atrasada
+        if: ${{ hashFiles('alerta_atrasado.json') != '' }}
+        env:
+          ATRASO_SEGUNDOS: "300"
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_TO_ATRASADO: ${{ secrets.SMTP_TO_ATRASADO }}
+        run: |
+          sleep "$ATRASO_SEGUNDOS"
+          python monitor.py --enviar-atrasado
