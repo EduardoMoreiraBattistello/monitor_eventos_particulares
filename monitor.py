@@ -137,22 +137,57 @@ def save_state(events_by_id):
     )
 
 
-def send_email(subject, body):
+def parse_addresses(value):
+    return [a.strip() for a in (value or "").split(",") if a.strip()]
+
+
+def send_email(subject, body, to_addrs=None):
     host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
     port = int(os.environ.get("SMTP_PORT", "465"))
     user = os.environ["SMTP_USER"]
     password = os.environ["SMTP_PASS"]
-    to_addr = os.environ.get("SMTP_TO", user)
+    if to_addrs is None:
+        to_addrs = parse_addresses(os.environ.get("SMTP_TO")) or [user]
 
     msg = MIMEText(body, "plain", "utf-8")
     msg["Subject"] = subject
     msg["From"] = user
-    msg["To"] = to_addr
+    msg["To"] = ", ".join(to_addrs)
 
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL(host, port, context=context) as server:
         server.login(user, password)
-        server.sendmail(user, [to_addr], msg.as_string())
+        server.sendmail(user, to_addrs, msg.as_string())
+
+
+# Copia atrasada: o alerta vai primeiro pro SMTP_TO e, alguns minutos
+# depois, pros enderecos do secret SMTP_TO_ATRASADO. O monitor so deixa
+# o alerta guardado neste arquivo; quem envia e o passo seguinte do
+# workflow (python monitor.py --enviar-atrasado), depois de esperar.
+DELAYED_FILE = Path("alerta_atrasado.json")
+
+
+def save_delayed(subject, body):
+    if not parse_addresses(os.environ.get("SMTP_TO_ATRASADO")):
+        return
+    DELAYED_FILE.write_text(
+        json.dumps({"subject": subject, "body": body}, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+
+def send_delayed():
+    if not DELAYED_FILE.exists():
+        print("Nenhum alerta pendente para a copia atrasada.")
+        return
+    recipients = parse_addresses(os.environ.get("SMTP_TO_ATRASADO"))
+    if not recipients:
+        print("SMTP_TO_ATRASADO nao configurado -- nada a enviar.")
+        return
+    data = json.loads(DELAYED_FILE.read_text(encoding="utf-8"))
+    send_email(data["subject"], data["body"], to_addrs=recipients)
+    DELAYED_FILE.unlink()
+    print(f"Copia atrasada enviada para {len(recipients)} destinatario(s).")
 
 
 def main():
@@ -211,11 +246,16 @@ def main():
             f"Encontrei {len(alerts)} novidade(s) na lista de eventos do Foco Radical (RS):\n\n"
             + "\n\n".join(alerts)
         )
-        send_email(f"Foco Radical: {len(alerts)} novidade(s)", body)
+        subject = f"Foco Radical: {len(alerts)} novidade(s)"
+        send_email(subject, body)
+        save_delayed(subject, body)
         print(f"Enviado e-mail com {len(alerts)} alerta(s).")
     else:
         print("Nenhuma novidade.")
 
 
 if __name__ == "__main__":
-    main()
+    if "--enviar-atrasado" in sys.argv:
+        send_delayed()
+    else:
+        main()
