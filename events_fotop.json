@@ -6,8 +6,8 @@
     "place": "Passo Fundo, Passo Fundo - Passo Fundo / RS",
     "abertura": "",
     "status": "aberta",
-    "btnText": "Participar",
-    "last_seen": "2026-10-30T21:32:20.773896+00:00",
+    "btnText": "Join",
+    "last_seen": "2026-10-30T22:40:33.990616+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "348250": {
@@ -17,8 +17,8 @@
     "place": "Rótula das Cuias - Cidade Baixa, Porto Alegre - Porto Alegre / RS",
     "abertura": "",
     "status": "aberta",
-    "btnText": "Participar",
-    "last_seen": "2026-10-30T21:32:20.773896+00:00",
+    "btnText": "Join",
+    "last_seen": "2026-10-30T22:40:33.990616+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "310172": {
@@ -28,8 +28,8 @@
     "place": "Novo Hamburgo, Novo Hamburgo - Novo Hamburgo / RS",
     "abertura": "",
     "status": "inscrito",
-    "btnText": "Abandonar",
-    "last_seen": "2026-10-30T21:32:20.773896+00:00",
+    "btnText": "Leave event",
+    "last_seen": "2026-10-30T22:40:33.990616+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "346696": {
@@ -39,8 +39,8 @@
     "place": "Santa Cruz do Sul, Santa Cruz do Sul - Santa Cruz do Sul / RS",
     "abertura": "",
     "status": "aberta",
-    "btnText": "Participar",
-    "last_seen": "2026-10-30T21:32:20.773896+00:00",
+    "btnText": "Join",
+    "last_seen": "2026-10-30T22:40:33.990616+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "346712": {
@@ -50,8 +50,8 @@
     "place": "Porto Alegre, Porto Alegre - Porto Alegre / RS",
     "abertura": "",
     "status": "esgotada",
-    "btnText": "Esgotada",
-    "last_seen": "2026-10-30T21:32:20.773896+00:00",
+    "btnText": "No spots available",
+    "last_seen": "2026-10-30T22:40:33.990616+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "322305": {
@@ -59,10 +59,10 @@
     "name": "Cbds - Circuito Nacional de Vôlei de Praia -2ª Etapa",
     "date": "05/12/2026",
     "place": "Itaara - RS / RS",
-    "abertura": "13/11/2026 19:00",
+    "abertura": "",
     "status": "em_breve",
-    "btnText": "Em breve",
-    "last_seen": "2026-10-30T21:32:20.773896+00:00",
+    "btnText": "Soon",
+    "last_seen": "2026-10-30T22:40:33.990616+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "354378": {
@@ -70,10 +70,10 @@
     "name": "32 Super Maratona 50 km Cidade do Rio Grande",
     "date": "21/03/2027",
     "place": "Rio Grande - Rio Grande / RS",
-    "abertura": "18/02/2027 19:00",
+    "abertura": "",
     "status": "sob_analise",
     "btnText": "",
-    "last_seen": "2026-10-30T21:32:20.773896+00:00",
+    "last_seen": "2026-10-30T22:40:33.990616+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "352834": {
@@ -81,10 +81,10 @@
     "name": "Cat's Run",
     "date": "10/10/2027",
     "place": "PORTO ALEGRE - PORTO ALEGRE / RS",
-    "abertura": "09/09/2027 19:00",
+    "abertura": "",
     "status": "sob_analise",
     "btnText": "",
-    "last_seen": "2026-10-30T21:32:20.773896+00:00",
+    "last_seen": "2026-10-30T22:40:33.990616+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   }
 }
