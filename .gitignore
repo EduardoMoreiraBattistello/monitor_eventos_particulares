@@ -1,0 +1,4 @@
+storage_state*.json
+alerta_atrasado*.json
+__pycache__/
+.venv/
