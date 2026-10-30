@@ -1,0 +1,50 @@
+name: Monitor Fotop
+
+on:
+  schedule:
+    # a cada 15 minutos, defasado do monitor da Foco Radical
+    - cron: "2,17,32,47 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# nunca roda duas vezes ao mesmo tempo (evita estado/commit duplicado)
+concurrency:
+  group: monitor-fotop
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Rodar monitor
+        env:
+          SESSION_STATE_FOTOP: ${{ secrets.SESSION_STATE_FOTOP }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_TO: ${{ secrets.SMTP_TO }}
+        run: python monitor_fotop.py
+
+      - name: Salvar estado atualizado
+        run: |
+          git config user.name "monitor-bot"
+          git config user.email "monitor-bot@users.noreply.github.com"
+          if [ -f events_fotop.json ]; then git add events_fotop.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualiza estado dos eventos Fotop [skip ci]"
+            # o monitor da Foco Radical tambem commita nessa branch
+            git pull --rebase
+            git push
+          fi
