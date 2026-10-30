@@ -38,8 +38,12 @@ jobs:
           git config user.name "monitor-bot"
           git config user.email "monitor-bot@users.noreply.github.com"
           git add events.json
-          git diff --cached --quiet || git commit -m "Atualiza estado dos eventos [skip ci]"
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualiza estado dos eventos [skip ci]"
+            # o monitor da Fotop tambem commita nessa branch
+            git pull --rebase
+            git push
+          fi
 
       # So roda quando houve alerta e o secret SMTP_TO_ATRASADO existe.
       # Espera ATRASO_SEGUNDOS e manda a mesma mensagem pros outros enderecos.
