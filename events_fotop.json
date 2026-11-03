@@ -7,7 +7,7 @@
     "abertura": "",
     "status": "aberta",
     "btnText": "Join",
-    "last_seen": "2026-11-02T19:18:10.725995+00:00",
+    "last_seen": "2026-11-03T01:44:28.677751+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "310172": {
@@ -18,7 +18,7 @@
     "abertura": "",
     "status": "inscrito",
     "btnText": "Leave event",
-    "last_seen": "2026-11-02T19:18:10.725995+00:00",
+    "last_seen": "2026-11-03T01:44:28.677751+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "346696": {
@@ -29,7 +29,7 @@
     "abertura": "",
     "status": "aberta",
     "btnText": "Join",
-    "last_seen": "2026-11-02T19:18:10.725995+00:00",
+    "last_seen": "2026-11-03T01:44:28.677751+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "346712": {
@@ -40,7 +40,7 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-02T19:18:10.725995+00:00",
+    "last_seen": "2026-11-03T01:44:28.677751+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "322305": {
@@ -51,18 +51,18 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-02T19:18:10.725995+00:00",
+    "last_seen": "2026-11-03T01:44:28.677751+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "354378": {
     "id": "354378",
-    "name": "32 Super Maratona 50 km Cidade do Rio Grande",
+    "name": "32ª Super Maratona 50 km",
     "date": "21/03/2027",
     "place": "Rio Grande - Rio Grande / RS",
     "abertura": "",
-    "status": "sob_analise",
-    "btnText": "",
-    "last_seen": "2026-11-02T19:18:10.725995+00:00",
+    "status": "em_breve",
+    "btnText": "Soon",
+    "last_seen": "2026-11-03T01:44:28.677751+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "352834": {
@@ -73,7 +73,7 @@
     "abertura": "",
     "status": "sob_analise",
     "btnText": "",
-    "last_seen": "2026-11-02T19:18:10.725995+00:00",
+    "last_seen": "2026-11-03T01:44:28.677751+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   }
 }
