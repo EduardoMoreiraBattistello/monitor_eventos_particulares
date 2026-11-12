@@ -7,7 +7,7 @@
     "abertura": "",
     "status": "aberta",
     "btnText": "Join",
-    "last_seen": "2026-11-11T17:59:56.205959+00:00",
+    "last_seen": "2026-11-12T00:27:24.273867+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "310172": {
@@ -18,7 +18,7 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-11T17:59:56.205959+00:00",
+    "last_seen": "2026-11-12T00:27:24.273867+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "346696": {
@@ -29,7 +29,7 @@
     "abertura": "",
     "status": "aberta",
     "btnText": "Join",
-    "last_seen": "2026-11-11T17:59:56.205959+00:00",
+    "last_seen": "2026-11-12T00:27:24.273867+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "346712": {
@@ -40,7 +40,7 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-11T17:59:56.205959+00:00",
+    "last_seen": "2026-11-12T00:27:24.273867+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "322305": {
@@ -51,7 +51,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-11T17:59:56.205959+00:00",
+    "last_seen": "2026-11-12T00:27:24.273867+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "354378": {
@@ -62,18 +62,18 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-11T17:59:56.205959+00:00",
+    "last_seen": "2026-11-12T00:27:24.273867+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "352834": {
     "id": "352834",
     "name": "Cat's Run",
     "date": "10/10/2027",
-    "place": "PORTO ALEGRE - PORTO ALEGRE / RS",
+    "place": "PORTO ALEGRE - Porto Alegre / RS",
     "abertura": "",
-    "status": "sob_analise",
-    "btnText": "",
-    "last_seen": "2026-11-11T17:59:56.205959+00:00",
+    "status": "em_breve",
+    "btnText": "Soon",
+    "last_seen": "2026-11-12T00:27:24.273867+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   }
 }
