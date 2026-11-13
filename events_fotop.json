@@ -7,7 +7,7 @@
     "abertura": "",
     "status": "aberta",
     "btnText": "Join",
-    "last_seen": "2026-11-13T10:38:57.062799+00:00",
+    "last_seen": "2026-11-13T18:06:26.492664+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "310172": {
@@ -16,9 +16,9 @@
     "date": "15/11/2026",
     "place": "Novo Hamburgo, Novo Hamburgo - Novo Hamburgo / RS",
     "abertura": "",
-    "status": "esgotada",
-    "btnText": "No spots available",
-    "last_seen": "2026-11-13T10:38:57.062799+00:00",
+    "status": "aberta",
+    "btnText": "Join",
+    "last_seen": "2026-11-13T18:06:26.492664+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "346696": {
@@ -27,9 +27,9 @@
     "date": "15/11/2026",
     "place": "Santa Cruz do Sul, Santa Cruz do Sul - Santa Cruz do Sul / RS",
     "abertura": "",
-    "status": "aberta",
-    "btnText": "Join",
-    "last_seen": "2026-11-13T10:38:57.062799+00:00",
+    "status": "esgotada",
+    "btnText": "No spots available",
+    "last_seen": "2026-11-13T18:06:26.492664+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "346712": {
@@ -40,7 +40,7 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-13T10:38:57.062799+00:00",
+    "last_seen": "2026-11-13T18:06:26.492664+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "322305": {
@@ -51,7 +51,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-13T10:38:57.062799+00:00",
+    "last_seen": "2026-11-13T18:06:26.492664+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "354378": {
@@ -62,7 +62,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-13T10:38:57.062799+00:00",
+    "last_seen": "2026-11-13T18:06:26.492664+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "352834": {
@@ -73,7 +73,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-13T10:38:57.062799+00:00",
+    "last_seen": "2026-11-13T18:06:26.492664+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   }
 }
