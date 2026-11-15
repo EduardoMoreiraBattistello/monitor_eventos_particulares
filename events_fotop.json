@@ -1,26 +1,4 @@
 {
-  "310172": {
-    "id": "310172",
-    "name": "Track&Field Experience Running Novo Hamburgo | I Fashion Run",
-    "date": "15/11/2026",
-    "place": "Novo Hamburgo, Novo Hamburgo - Novo Hamburgo / RS",
-    "abertura": "",
-    "status": "aberta",
-    "btnText": "Join",
-    "last_seen": "2026-11-15T15:25:43.798562+00:00",
-    "first_seen": "2026-10-30T21:27:17.284025+00:00"
-  },
-  "346696": {
-    "id": "346696",
-    "name": "Track&Field Experience Running Santa Cruz do Sul | SEASC",
-    "date": "15/11/2026",
-    "place": "Santa Cruz do Sul, Santa Cruz do Sul - Santa Cruz do Sul / RS",
-    "abertura": "",
-    "status": "aberta",
-    "btnText": "Join",
-    "last_seen": "2026-11-15T15:25:43.798562+00:00",
-    "first_seen": "2026-10-30T21:27:17.284025+00:00"
-  },
   "361370": {
     "id": "361370",
     "name": "C 361370 - 17º Edição - Mississippi Delta Blues Festival - 19/11",
@@ -29,7 +7,7 @@
     "abertura": "",
     "status": "aberta",
     "btnText": "Apply",
-    "last_seen": "2026-11-15T15:25:43.798562+00:00",
+    "last_seen": "2026-11-15T20:29:47.122344+00:00",
     "first_seen": "2026-11-13T23:35:21.064600+00:00"
   },
   "346712": {
@@ -40,7 +18,7 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-15T15:25:43.798562+00:00",
+    "last_seen": "2026-11-15T20:29:47.122344+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "322305": {
@@ -51,7 +29,7 @@
     "abertura": "",
     "status": "aberta",
     "btnText": "Join",
-    "last_seen": "2026-11-15T15:25:43.798562+00:00",
+    "last_seen": "2026-11-15T20:29:47.122344+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "354378": {
@@ -62,7 +40,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-15T15:25:43.798562+00:00",
+    "last_seen": "2026-11-15T20:29:47.122344+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "352834": {
@@ -73,7 +51,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-15T15:25:43.798562+00:00",
+    "last_seen": "2026-11-15T20:29:47.122344+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   }
 }
