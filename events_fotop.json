@@ -7,7 +7,7 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-25T12:13:57.884257+00:00",
+    "last_seen": "2026-11-25T21:44:24.492957+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "322305": {
@@ -18,8 +18,19 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-25T12:13:57.884257+00:00",
+    "last_seen": "2026-11-25T21:44:24.492957+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
+  },
+  "367260": {
+    "id": "367260",
+    "name": "Track&Field Experience Inegociáveis Club | Maxicon",
+    "date": "05/12/2026",
+    "place": "Rua Faixa Eduardo Laimer, 630 - Roselândia, Passo Fundo - RS, 99066-125, Brasil - Passo Fundo / RS",
+    "abertura": "",
+    "status": "em_breve",
+    "btnText": "Soon",
+    "last_seen": "2026-11-25T21:44:24.492957+00:00",
+    "first_seen": "2026-11-25T21:44:24.492957+00:00"
   },
   "354378": {
     "id": "354378",
@@ -29,7 +40,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-25T12:13:57.884257+00:00",
+    "last_seen": "2026-11-25T21:44:24.492957+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "352834": {
@@ -40,7 +51,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-25T12:13:57.884257+00:00",
+    "last_seen": "2026-11-25T21:44:24.492957+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   }
 }
