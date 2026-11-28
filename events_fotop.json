@@ -1,15 +1,4 @@
 {
-  "346712": {
-    "id": "346712",
-    "name": "Track&Field Experience Running Clube de Corrida Iguatemi",
-    "date": "28/11/2026",
-    "place": "Porto Alegre, Porto Alegre - Porto Alegre / RS",
-    "abertura": "",
-    "status": "esgotada",
-    "btnText": "No spots available",
-    "last_seen": "2026-11-28T13:39:25.329875+00:00",
-    "first_seen": "2026-10-30T21:27:17.284025+00:00"
-  },
   "322305": {
     "id": "322305",
     "name": "Cbds - Circuito Nacional de Vôlei de Praia -2ª Etapa",
@@ -18,7 +7,7 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-28T13:39:25.329875+00:00",
+    "last_seen": "2026-11-28T21:23:32.728490+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "367260": {
@@ -29,7 +18,7 @@
     "abertura": "",
     "status": "aberta",
     "btnText": "Join",
-    "last_seen": "2026-11-28T13:39:25.329875+00:00",
+    "last_seen": "2026-11-28T21:23:32.728490+00:00",
     "first_seen": "2026-11-25T21:44:24.492957+00:00"
   },
   "367617": {
@@ -40,7 +29,7 @@
     "abertura": "",
     "status": "esgotada",
     "btnText": "No spots available",
-    "last_seen": "2026-11-28T13:39:25.329875+00:00",
+    "last_seen": "2026-11-28T21:23:32.728490+00:00",
     "first_seen": "2026-11-26T22:37:22.801087+00:00"
   },
   "354378": {
@@ -51,7 +40,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-28T13:39:25.329875+00:00",
+    "last_seen": "2026-11-28T21:23:32.728490+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   },
   "352834": {
@@ -62,7 +51,7 @@
     "abertura": "",
     "status": "em_breve",
     "btnText": "Soon",
-    "last_seen": "2026-11-28T13:39:25.329875+00:00",
+    "last_seen": "2026-11-28T21:23:32.728490+00:00",
     "first_seen": "2026-10-30T21:27:17.284025+00:00"
   }
 }
